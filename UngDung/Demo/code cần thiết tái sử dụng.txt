@@ -1,0 +1,35 @@
+//hiển thị lên form
+//    public void setData(String email, String hoten, String ngaysinh, String gioitinh, String sdt, String anhbia) {
+//        anhbia = "src\\ImageND\\" + getAnhBia();
+//        txtEmail.setText(email);
+//        txtHoTen.setText(hoten);
+//        txtNgaySinh.setText(ngaysinh);
+//        txtSDT.setText(sdt);
+//
+//        if (gioitinh.trim().equalsIgnoreCase("Nam")) {
+//            rdoNam.setSelected(true);
+//        } else if (gioitinh.trim().equalsIgnoreCase("Nữ")) {
+//            rdoNu.setSelected(true);
+//        } else {
+//            rdoNam.setSelected(false);
+//            rdoNu.setSelected(false);
+//        }
+////        String tenLoaiSP = (String) cboDiaChi.getSelectedItem();
+////        for (LoaiSanPham l : listLSP) {
+////            if (l.getTenLoai().equals(tenLoaiSP)) {
+////                diachi = l.getMaLoai();
+////                break;
+////            }
+////        }
+////        tk.s(diachi);
+//        // Lấy kích thước của lblAnh
+//        int lblWidth = lblAnh.getWidth();
+//        int lblHeight = lblAnh.getHeight();
+//
+//        ImageIcon imageIcon = new ImageIcon(anhbia);
+//        Image image = imageIcon.getImage();
+//        Image newImage = image.getScaledInstance(lblWidth, lblHeight, java.awt.Image.SCALE_SMOOTH);
+//        ImageIcon scaledImageIcon = new ImageIcon(newImage);
+//        lblAnh.setIcon(scaledImageIcon);
+//    }
+    //lấy dữ liệu
